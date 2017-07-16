@@ -1,0 +1,23 @@
+{
+	"name": "eic",
+	"version": "1.0.0",
+	"description": "Simple module for verification of Energy Identification Codes (EIC).",
+	"main": "eic.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sigod/eic.git"
+	},
+	"keywords": [
+		"eic",
+		"verify"
+	],
+	"author": "sigod",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sigod/eic/issues"
+	},
+	"homepage": "https://github.com/sigod/eic#readme"
+}
