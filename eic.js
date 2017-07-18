@@ -29,7 +29,7 @@ function generateEICCheckDigit(EIC) {
 	var total = 0;
 
 	for (var i = 0, len = LENGTH - 1; i < len; i += 1) {
-		var n = toNumber(EIC(i));
+		var n = toNumber(EIC[i]);
 
 		if (n < 0 || n > 36) {
 			return;
